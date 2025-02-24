@@ -1,4 +1,4 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18364363&assignment_repo_type=AssignmentRepo)
+ [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18364363&assignment_repo_type=AssignmentRepo)
 # SE_Day1
 Software Engineering Day1 Assignment
 
@@ -40,9 +40,43 @@ WATERFALL on the other hand, works great in industries like construction, those 
 
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
+A software developer in a software engineering team has the roles of, writting code and developing software, code maintenance and refacoring and writting technical documentation. 
+A quality assurance engineer in an engineering team, finds and fixes bugs, creates test plans and running manual and automated tests on the softwares developed. 
+Project managerinthe team, monitors the progress of developnment and sets deadlines, coordinates the engineeering team and planing which includes, outlining tasks and timelines and the resources needed to complete them.
 
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+importance of IDEs(integrated developnment environment).
+Code editing automation
+Programming languages have rules for how statements must be structured. Because an IDE knows these rules, it contains many intelligent features for automatically writing or editing the source code.
+Syntax highlighting
+An IDE can format the written text by automatically making some words bold or italic, or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors.
+Intelligent code completion
+Various search terms show up when you start typing words in a search engine. Similarly, an IDE can make suggestions to complete a code statement when the developer begins typing.
+Refactoring support
+Code refactoring is the process of restructuring the source code to make it more efficient and readable without changing its core functionality. IDEs can auto-refactor to some extent, allowing developers to improve their code quickly and easily. Other team members understand readable code faster, which supports collaboration within the team.
+Local build automation
+IDEs increase programmer productivity by performing repeatable development tasks that are typically part of every code change. The following are some examples of regular coding tasks that an IDE carries out.
+Compilation
+An IDE compiles or converts the code into a simplified language that the operating system can understand. Some programming languages implement just-in-time compiling, in which the IDE converts human-readable code into machine code from within the application.
+Testing
+The IDE allows developers to automate unit tests locally before the software is integrated with other developers' code and more complex integration tests are run.
+Debugging
+Debugging is the process of fixing any errors or bugs that testing reveals. One of the biggest values of an IDE for debugging purposes is that you can step through the code, line by line, as it runs and inspect code behavior. IDEs also integrate several debugging tools that highlight bugs caused by human error in real time, even as the developer is typing.
+IDEs are of twe types, local IDEs for example Visual studio code and clound IDEs for example AWS Cloud9. 
+importance of version control systems
+Collaboration
+Version control systems are the linchpin of a collaborative development environment. They allow multiple developers to work on the same project simultaneously, each making their changes in a controlled and isolated manner. This prevents overwriting and conflicting changes, ensuring that each developer’s work is preserved and integrated correctly.
+Track Changes
+A version control system keeps a comprehensive history of all changes made to the project, including who made the changes and why. This audit trail is invaluable for understanding the evolution of a project, debugging issues, and holding developers accountable for their changes. It provides a clear picture of the project’s progression and the decisions that shaped it.
+Experimentation
+One of the most powerful features of version control systems is the ability to create separate branches for experimentation. Developers can diverge from the main line of development and explore new ideas without fear of destabilizing the main project. If the experiment is successful, it can be merged back into the main project. If not, it can be discarded without any adverse impact.
+Rollback
+Despite best efforts, sometimes new features can introduce bugs or not meet expectations. In such cases, version control systems provide the ability to revert to previous versions. This rollback feature ensures that you can quickly recover from mistakes or unwanted changes, maintaining the stability and integrity of your project.
+
+some of the examples of  version control systems include; Git- It’s popular due to its speed, data integrity, and support for distributed workflows. Platforms like GitHub, GitLab, and Bitbucket have increased its popularity.
+Subversion- Subversion, or SVN, is a centralized version control system. It’s known for its simplicity and linear history model. Despite being older, it’s still used in many projects.
+Mercural- Mercurial is a distributed version control system like Git. It emphasizes simplicity and ease of use, making it a good choice for smaller teams or projects.
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
